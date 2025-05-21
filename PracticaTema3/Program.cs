@@ -18,7 +18,7 @@ namespace ControlEscolar
             ExcelPackage.License.SetNonCommercialOrganization("My Noncommercial organization");
             // Inicializar NLog
             //_logger = LoggingManager.GetLogger("ControlEscolar.Program");
-            _logger.Info("Iniciando aplicación");
+            //_logger.Info("Iniciando aplicación");
 
 
             FrmLogin login_form = new FrmLogin();
